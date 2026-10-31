@@ -1,0 +1,2299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NueTech Industries Pvt Ltd — DCA Certification Examination 2026</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans, JetBrains Mono, & Certificate Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Great+Vibes&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <!-- html2canvas for Admin Certificate Image/PDF Download -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            alabaster: '#FAF8F5',
+            paper: '#F2EFE9',
+            ink: '#141413',
+            graphite: '#222220',
+            muted: '#5A5852',
+            hairline: '#DEDAD2',
+            signal: '#EF5F17',
+            signalDark: '#D14B08',
+            forest: '#15803D',
+            cobalt: '#1D4ED8',
+          },
+          fontFamily: {
+            display: ['Space Grotesk', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+            cinzel: ['Cinzel', 'serif'],
+            playfair: ['Playfair Display', 'serif'],
+            script: ['Great Vibes', 'cursive'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #FAF8F5;
+      color: #141413;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    /* Architectural Blueprint Dot Grid Background */
+    .bg-blueprint {
+      background-image: radial-gradient(#CFCBC2 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    /* Hard Brutalist/Editorial Offset Shadows */
+    .hard-shadow {
+      box-shadow: 5px 5px 0px #141413;
+    }
+    .hard-shadow-sm {
+      box-shadow: 3px 3px 0px #141413;
+    }
+    .hard-shadow-orange {
+      box-shadow: 5px 5px 0px #EF5F17;
+    }
+    .hard-btn {
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+    .hard-btn:hover:not(:disabled) {
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0px #141413;
+    }
+    .hard-btn:active:not(:disabled) {
+      transform: translate(1px, 1px);
+      box-shadow: 1px 1px 0px #141413;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FAF8F5;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #141413;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #EF5F17;
+    }
+
+    /* Mirror effect for dummy webcam */
+    .mirror-mode {
+      transform: scaleX(-1);
+    }
+
+    /* Print styles strictly tailored for printable landscape Certificate */
+    @media print {
+      body * {
+        visibility: hidden !important;
+      }
+      #printable-certificate-wrapper, #printable-certificate-wrapper * {
+        visibility: visible !important;
+      }
+      #printable-certificate-wrapper {
+        position: fixed !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: white !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        z-index: 999999 !important;
+      }
+      @page {
+        size: landscape;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased select-none bg-blueprint">
+
+  <!-- TOP TECHNICAL TELEMETRY BAR -->
+  <div class="bg-ink text-alabaster border-b border-neutral-800 text-[11px] font-mono">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-9 flex items-center justify-between">
+      <div class="flex items-center space-x-3 sm:space-x-4 overflow-x-auto whitespace-nowrap">
+        <span class="inline-flex items-center space-x-1.5 text-signal font-bold">
+          <span class="w-2 h-2 rounded-full bg-signal animate-pulse"></span>
+          <span>SYS.EXAM // NUETECH-DCA-2026</span>
+        </span>
+        <span class="text-neutral-600">|</span>
+        <span class="text-neutral-300 hidden sm:inline">BOARD: NUETECH INDUSTRIES PVT LTD</span>
+        <span class="text-neutral-600 hidden md:inline">|</span>
+        <span class="text-neutral-400 hidden md:inline">MODE: STRICT PROCTORED EVALUATION</span>
+      </div>
+      <div class="flex items-center space-x-3 whitespace-nowrap">
+        <span id="live-ist-clock" class="text-amber-300 font-semibold">IST --:--:--</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SWISS-GRID ARCHITECTURAL HEADER -->
+  <header class="bg-alabaster/95 backdrop-blur-md border-b-2 border-ink sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center space-x-3.5">
+        <div class="w-11 h-11 bg-ink text-alabaster flex flex-col items-center justify-center font-mono font-bold border border-ink hard-shadow-sm">
+          <span class="text-xs leading-none tracking-tighter">NT</span>
+          <span class="text-[9px] text-signal font-extrabold leading-none mt-0.5">//26</span>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="font-display font-bold text-base sm:text-xl tracking-tight text-ink uppercase">
+              NueTech Industries Pvt Ltd
+            </h1>
+            <span class="hidden sm:inline-block text-[10px] font-mono uppercase px-2 py-0.5 bg-paper border border-ink text-ink font-bold">
+              DCA Board
+            </span>
+          </div>
+          <p class="text-[11px] font-mono text-muted tracking-tight">
+            Division of Technical Literacy &amp; DCA Certification 2026
+          </p>
+        </div>
+      </div>
+
+      <!-- Active Session User Badge & Logout -->
+      <div id="header-user-panel" class="hidden flex items-center space-x-3">
+        <div class="flex items-center space-x-2 bg-paper px-3 py-1.5 border border-ink font-mono">
+          <i class="fa-solid fa-terminal text-signal text-xs"></i>
+          <span id="header-user-name" class="text-xs font-bold text-ink">Candidate</span>
+          <span id="header-role-badge" class="text-[10px] font-bold px-1.5 py-0.5 bg-ink text-alabaster uppercase">CANDIDATE</span>
+        </div>
+        <button onclick="handleLogout()" class="px-3.5 py-2 bg-white hover:bg-signal hover:text-white text-ink border border-ink font-mono text-xs font-bold uppercase transition flex items-center gap-1.5 hard-btn">
+          <i class="fa-solid fa-power-off"></i>
+          <span class="hidden sm:inline">Terminate Session</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Notification Toast Container -->
+  <div id="toast-container" class="fixed top-24 right-4 z-50 flex flex-col space-y-2 pointer-events-none"></div>
+
+  <!-- MAIN APPLICATION WORKSPACE -->
+  <main class="flex-grow flex flex-col">
+
+    <!-- =================================================================
+         1. CANDIDATE & INSTRUCTOR AUTHENTICATION VIEW
+         ================================================================= -->
+    <section id="login-view" class="flex-grow flex items-center justify-center p-4 sm:p-6">
+      <div class="w-full max-w-lg bg-white border-2 border-ink hard-shadow p-6 sm:p-10 relative">
+        
+        <!-- Top Spec Header -->
+        <div class="flex items-center justify-between border-b border-ink pb-3 mb-6 font-mono text-xs">
+          <span class="text-signal font-bold uppercase">// AUTH_GATEWAY // NTI-DCA-2026</span>
+          <span class="px-2 py-0.5 bg-paper border border-ink text-ink font-bold">REV 2026.4</span>
+        </div>
+
+        <div class="mb-6">
+          <h2 class="font-display font-bold text-2xl sm:text-3xl text-ink tracking-tight">
+            Examination Terminal Sign-In
+          </h2>
+          <p class="text-xs sm:text-sm text-muted mt-1 font-sans">
+            Enter your assigned NueTech Industries Pvt Ltd candidate or instructor credentials to unlock the assessment workspace.
+          </p>
+        </div>
+
+        <!-- Login Form -->
+        <form id="login-form" onsubmit="handleLogin(event)" class="space-y-4 font-mono">
+          <div>
+            <label class="block text-xs font-bold text-ink uppercase tracking-wider mb-1.5">
+              01 // Candidate Username or ID *
+            </label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-muted">
+                <i class="fa-solid fa-id-badge"></i>
+              </span>
+              <input type="text" id="username-input" required autocomplete="username"
+                class="w-full pl-10 pr-3.5 py-3 bg-alabaster border-2 border-ink text-sm text-ink focus:outline-none focus:bg-white transition"
+                placeholder="e.g. candidate_id or demo_tester">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-ink uppercase tracking-wider mb-1.5">
+              02 // Security Passkey *
+            </label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-muted">
+                <i class="fa-solid fa-key"></i>
+              </span>
+              <input type="password" id="password-input" required autocomplete="current-password"
+                class="w-full pl-10 pr-10 py-3 bg-alabaster border-2 border-ink text-sm text-ink focus:outline-none focus:bg-white transition"
+                placeholder="••••••••••••">
+              <button type="button" onclick="togglePasswordVisibility()" class="absolute inset-y-0 right-0 pr-3.5 flex items-center text-muted hover:text-ink focus:outline-none">
+                <i id="pwd-toggle-icon" class="fa-solid fa-eye text-sm"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Error Box -->
+          <div id="login-error" class="hidden p-3 bg-red-50 border-2 border-red-700 text-red-800 text-xs font-bold flex items-center gap-2">
+            <i class="fa-solid fa-triangle-exclamation flex-shrink-0"></i>
+            <span id="login-error-text">Authentication rejected. Verify username and password.</span>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 bg-signal hover:bg-signalDark text-white border-2 border-ink font-mono font-bold text-xs sm:text-sm uppercase tracking-wider hard-btn flex items-center justify-center space-x-2">
+            <span>Initialize Examination Session</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+
+        <!-- Examination Protocol Callout -->
+        <div class="mt-7 pt-5 border-t border-hairline font-mono text-[11px] text-muted space-y-2">
+          <div class="font-bold text-ink uppercase flex items-center justify-between">
+            <span><i class="fa-solid fa-shield-halved text-signal mr-1"></i> Mandatory Examination Directives:</span>
+            <span class="text-[10px] px-1.5 py-0.5 bg-paper border border-hairline">DCA</span>
+          </div>
+          <ul class="space-y-1 text-muted list-disc pl-4 font-sans text-xs">
+            <li><strong>50 Randomized Questions</strong> drawn from the 100-question NueTech DCA bank.</li>
+            <li><strong>60-Minute Strict Timer</strong>; exam auto-locks and submits when time expires.</li>
+            <li><strong>Attention Camera Stream</strong> remains active in the sidebar throughout the test.</li>
+            <li><strong>Strict Confidentiality</strong>: Final scores are sealed and transmitted directly to the Examination Board (`abhinav2307`).</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         2. ACTIVE PROCTORED EXAMINATION VIEW
+         ================================================================= -->
+    <section id="exam-view" class="hidden flex-grow flex flex-col p-3 sm:p-6 max-w-7xl mx-auto w-full">
+      
+      <!-- Top Telemetry & Countdown Control Bar -->
+      <div class="bg-white border-2 border-ink hard-shadow-sm p-4 mb-5 flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center space-x-3.5">
+          <div class="hidden sm:flex w-11 h-11 bg-paper border border-ink text-ink items-center justify-center font-mono font-bold text-lg">
+            <i class="fa-solid fa-file-signature text-signal"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="font-mono text-[10px] uppercase px-2 py-0.5 bg-ink text-amber-300 font-bold">LIVE SESSION</span>
+              <h2 class="font-display font-bold text-base sm:text-lg text-ink">
+                Candidate: <span id="exam-student-name" class="text-signal underline decoration-2 underline-offset-2">Student</span>
+              </h2>
+            </div>
+            <div class="flex flex-wrap items-center gap-2 text-xs font-mono text-muted mt-0.5">
+              <span>PAPER: <strong class="text-ink">NTI-DCA-2026</strong></span>
+              <span>•</span>
+              <span>50 QUESTIONS</span>
+              <span>•</span>
+              <span id="answered-badge" class="bg-paper border border-ink text-ink font-bold px-2 py-0.5 text-[11px]">
+                0 / 50 ANSWERED
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timer & Submit Block -->
+        <div class="flex items-center space-x-3 w-full sm:w-auto justify-between sm:justify-end">
+          <!-- Countdown Clock -->
+          <div class="flex items-center space-x-3 bg-ink text-alabaster px-4 py-2 border border-ink font-mono">
+            <i class="fa-regular fa-clock text-signal text-lg animate-pulse"></i>
+            <div class="flex flex-col text-right">
+              <span class="text-[9px] text-neutral-400 uppercase font-bold tracking-widest leading-none">Remaining Time</span>
+              <span id="timer-display" class="text-lg sm:text-xl font-bold tracking-wider text-amber-300">60:00</span>
+            </div>
+          </div>
+
+          <!-- Finish Exam Button -->
+          <button onclick="confirmSubmitModal()" class="px-4 py-3 bg-forest hover:bg-emerald-800 text-white border-2 border-ink font-mono font-bold text-xs uppercase tracking-wider hard-btn flex items-center space-x-2">
+            <i class="fa-solid fa-lock"></i>
+            <span>Seal &amp; Submit</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Examination Split Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 flex-grow">
+
+        <!-- Left/Main Question Workbench (8 Cols) -->
+        <div class="lg:col-span-8 flex flex-col">
+          <div class="bg-white border-2 border-ink hard-shadow p-5 sm:p-8 flex flex-col flex-grow justify-between">
+            
+            <div>
+              <!-- Question Header Meta -->
+              <div class="flex items-center justify-between pb-4 border-b-2 border-ink font-mono">
+                <div class="flex items-center space-x-2">
+                  <span id="question-number-pill" class="bg-ink text-white text-xs font-bold px-3 py-1 uppercase tracking-wider">
+                    QUESTION 01 / 50
+                  </span>
+                  <span id="question-category-pill" class="text-xs font-bold bg-paper text-ink px-2.5 py-1 border border-ink uppercase">
+                    Fundamentals
+                  </span>
+                </div>
+                <button onclick="clearCurrentAnswer()" class="text-xs text-signal hover:underline flex items-center gap-1 font-bold uppercase">
+                  <i class="fa-solid fa-rotate-left"></i> Reset Selection
+                </button>
+              </div>
+
+              <!-- Question Prompt -->
+              <div class="my-6">
+                <h3 id="question-text" class="font-display font-bold text-lg sm:text-2xl text-ink leading-snug">
+                  Loading question...
+                </h3>
+              </div>
+
+              <!-- Options List (Strict exam mode: never reveals correctness) -->
+              <div id="options-container" class="space-y-3 my-6">
+                <!-- Dynamically Populated -->
+              </div>
+            </div>
+
+            <!-- Bottom Question Navigation Bar -->
+            <div class="flex items-center justify-between pt-5 border-t-2 border-ink font-mono">
+              <button id="prev-btn" onclick="goToQuestion(currentQuestionIndex - 1)"
+                class="px-4 py-2.5 bg-alabaster hover:bg-paper border-2 border-ink text-ink text-xs font-bold uppercase transition flex items-center space-x-2 disabled:opacity-40 disabled:cursor-not-allowed hard-btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <span>Previous</span>
+              </button>
+
+              <div class="text-[11px] text-muted hidden sm:block uppercase">
+                Responses auto-logged in session buffer
+              </div>
+
+              <button id="next-btn" onclick="goToQuestion(currentQuestionIndex + 1)"
+                class="px-5 py-2.5 bg-ink hover:bg-signal text-white border-2 border-ink text-xs font-bold uppercase transition flex items-center space-x-2 hard-btn">
+                <span>Next Question</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Sidebar (4 Cols): Live Attention Camera & 50-Question Matrix -->
+        <div class="lg:col-span-4 flex flex-col space-y-5">
+
+          <!-- Dummy Camera / Proctoring Feed -->
+          <div class="bg-white border-2 border-ink hard-shadow-sm p-4">
+            <div class="flex items-center justify-between pb-2.5 mb-3 border-b border-ink font-mono">
+              <div class="flex items-center space-x-2">
+                <span class="relative flex h-2.5 w-2.5">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-signal opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-signal"></span>
+                </span>
+                <span class="text-xs font-bold uppercase text-ink">Attention Monitor</span>
+              </div>
+              <span class="text-[10px] bg-ink text-amber-300 font-bold px-2 py-0.5 uppercase">
+                LOCAL STREAM
+              </span>
+            </div>
+
+            <!-- Video Player -->
+            <div class="relative bg-ink aspect-video overflow-hidden flex items-center justify-center border-2 border-ink">
+              <video id="proctor-video" autoplay playsinline muted class="w-full h-full object-cover mirror-mode"></video>
+              
+              <!-- Fallback UI if camera access denied or loading -->
+              <div id="camera-fallback" class="absolute inset-0 flex flex-col items-center justify-center p-4 text-center bg-ink text-alabaster font-mono">
+                <i class="fa-solid fa-camera text-2xl text-signal mb-1.5"></i>
+                <p class="text-xs font-bold uppercase">Camera Feed Standby</p>
+                <p class="text-[10px] text-neutral-400 mt-1 max-w-[220px]">
+                  Allow webcam permission for attention self-view. Stream stays 100% local in your browser.
+                </p>
+                <button onclick="startCamera()" class="mt-2.5 text-[10px] bg-signal hover:bg-signalDark px-2.5 py-1 text-white font-bold uppercase border border-white/20">
+                  <i class="fa-solid fa-rotate-right mr-1"></i> Enable Camera
+                </button>
+              </div>
+
+              <!-- Live Telemetry Overlay -->
+              <div class="absolute bottom-2 left-2 bg-ink/80 text-amber-300 text-[10px] px-2 py-0.5 border border-neutral-700 font-mono flex items-center gap-1.5 pointer-events-none">
+                <i class="fa-solid fa-eye text-signal"></i> PROCTOR_VIEW // NO RECORDING
+              </div>
+            </div>
+            <p class="text-[10px] font-mono text-muted mt-2 text-center">
+              Attention mirror active • Zero external video transmission
+            </p>
+          </div>
+
+          <!-- 50-Question Matrix Navigator -->
+          <div class="bg-white border-2 border-ink hard-shadow-sm p-4 flex flex-col flex-grow">
+            <div class="flex items-center justify-between pb-2.5 border-b border-ink mb-3 font-mono">
+              <h4 class="text-xs font-bold uppercase text-ink">Question Index Matrix</h4>
+              <span class="text-[11px] font-bold text-muted">50 ITEMS</span>
+            </div>
+
+            <!-- Matrix Legend -->
+            <div class="grid grid-cols-3 gap-2 text-[10px] font-mono mb-3 bg-paper p-2 border border-ink">
+              <div class="flex items-center space-x-1.5">
+                <span class="w-3 h-3 bg-forest border border-ink inline-block"></span>
+                <span class="font-bold">Answered</span>
+              </div>
+              <div class="flex items-center space-x-1.5">
+                <span class="w-3 h-3 bg-alabaster border border-ink inline-block"></span>
+                <span>Pending</span>
+              </div>
+              <div class="flex items-center space-x-1.5">
+                <span class="w-3 h-3 bg-signal border border-ink inline-block"></span>
+                <span class="font-bold">Active</span>
+              </div>
+            </div>
+
+            <!-- 50 Button Grid -->
+            <div id="palette-grid" class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 gap-1.5 max-h-72 overflow-y-auto p-1 font-mono">
+              <!-- Dynamically populated 1 to 50 buttons -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         3. CANDIDATE POST-SUBMISSION "THANK YOU" VIEW (STRICTLY SEALED)
+         No score, percentage, pass/fail, or certificate shown to student!
+         ================================================================= -->
+    <section id="submitted-view" class="hidden flex-grow flex items-center justify-center p-4 sm:p-6">
+      <div class="w-full max-w-xl bg-white border-2 border-ink hard-shadow p-7 sm:p-10 text-center relative">
+        
+        <div class="flex items-center justify-between border-b border-ink pb-3 mb-6 font-mono text-xs">
+          <span class="text-forest font-bold uppercase">// TRANSMISSION COMPLETE // SEALED</span>
+          <span id="submitted-packet-id" class="px-2 py-0.5 bg-paper border border-ink font-bold">NTI-DCA-2026</span>
+        </div>
+
+        <div class="w-16 h-16 bg-ink text-amber-300 border-2 border-ink flex items-center justify-center mx-auto mb-5 text-2xl hard-shadow-sm">
+          <i class="fa-solid fa-file-shield"></i>
+        </div>
+
+        <h2 class="font-display font-bold text-2xl sm:text-3xl text-ink">
+          Thank You for Completing the Assessment.
+        </h2>
+        <p class="text-muted text-sm mt-2 leading-relaxed max-w-md mx-auto">
+          Thank you, <strong id="submitted-candidate-name" class="text-ink underline decoration-signal decoration-2">Candidate</strong>. Your examination paper has been securely sealed and transmitted to the <strong>NueTech Industries Pvt Ltd</strong> Examination Board.
+        </p>
+
+        <!-- Non-Grading Audit Metadata Box -->
+        <div class="bg-paper border-2 border-ink p-4 my-6 text-left space-y-2.5 font-mono text-xs">
+          <div class="flex justify-between py-1 border-b border-hairline">
+            <span class="text-muted">EXAMINATION BOARD:</span>
+            <span class="font-bold text-ink">NueTech Industries Pvt Ltd</span>
+          </div>
+          <div class="flex justify-between py-1 border-b border-hairline">
+            <span class="text-muted">EXAMINATION CODE:</span>
+            <span class="font-bold text-ink">NTI-DCA-2026 (DCA)</span>
+          </div>
+          <div class="flex justify-between py-1 border-b border-hairline">
+            <span class="text-muted">QUESTIONS ATTEMPTED:</span>
+            <span id="submitted-attempted-count" class="font-bold text-ink">0 / 50</span>
+          </div>
+          <div class="flex justify-between py-1 border-b border-hairline">
+            <span class="text-muted">SUBMISSION TIMESTAMP:</span>
+            <span id="submitted-timestamp" class="font-bold text-ink">--</span>
+          </div>
+          <div class="flex justify-between py-1">
+            <span class="text-muted">RESULT &amp; CREDENTIAL ACCESS:</span>
+            <span class="font-bold text-signal uppercase">Restricted to Instructor Review</span>
+          </div>
+        </div>
+
+        <div class="p-3 bg-alabaster border border-ink font-mono text-[11px] text-muted mb-6">
+          <i class="fa-solid fa-lock text-ink mr-1"></i>
+          Results and official certificates are confidential and accessible solely by the Program Director (<code class="text-ink font-bold">abhinav2307</code>).
+        </div>
+
+        <button onclick="handleLogout()" class="w-full sm:w-auto px-8 py-3.5 bg-ink hover:bg-signal text-white border-2 border-ink font-mono font-bold text-xs uppercase tracking-wider hard-btn transition">
+          <i class="fa-solid fa-arrow-left mr-2"></i> Return to Sign-In Portal
+        </button>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         4. INSTRUCTOR / ADMIN GRADEBOOK VIEW (RESTRICTED TO abhinav2307)
+         ================================================================= -->
+    <section id="admin-view" class="hidden flex-grow flex flex-col p-4 sm:p-6 max-w-7xl mx-auto w-full">
+      
+      <!-- Admin Command Header -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 bg-white p-6 border-2 border-ink hard-shadow">
+        <div>
+          <div class="flex items-center space-x-2 font-mono text-xs">
+            <span class="bg-ink text-amber-300 font-bold px-2.5 py-0.5 uppercase">
+              DIRECTORATE TERMINAL
+            </span>
+            <span class="text-muted">// AUTHENTICATED AS: <strong class="text-ink">abhinav2307</strong></span>
+          </div>
+          <h2 class="font-display font-bold text-2xl sm:text-3xl text-ink mt-1.5">
+            NueTech Industries Pvt Ltd — Official DCA Grade Book
+          </h2>
+          <p class="text-xs sm:text-sm text-muted">
+            Confidential candidate score ledger, answer key audit logs, and official A4 certificate generator
+          </p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2.5 font-mono">
+          <button onclick="exportResultsCSV()" class="px-4 py-2.5 bg-ink hover:bg-signal text-white border-2 border-ink text-xs font-bold uppercase hard-btn flex items-center space-x-1.5">
+            <i class="fa-solid fa-file-csv"></i>
+            <span>Export CSV Ledger</span>
+          </button>
+          <button onclick="openClearLogsModal()" class="px-4 py-2.5 bg-white hover:bg-red-600 hover:text-white text-red-700 border-2 border-ink text-xs font-bold uppercase hard-btn flex items-center space-x-1.5">
+            <i class="fa-solid fa-trash-can"></i>
+            <span>Purge Logs</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Telemetry Metrics Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6 font-mono">
+        <div class="bg-white p-5 border-2 border-ink hard-shadow-sm">
+          <div class="text-[11px] font-bold text-muted uppercase">01 // Total Submissions</div>
+          <div id="stat-total-submissions" class="font-display text-3xl font-bold text-ink mt-1">0</div>
+        </div>
+        <div class="bg-white p-5 border-2 border-ink hard-shadow-sm">
+          <div class="text-[11px] font-bold text-muted uppercase">02 // Cohort Pass Rate</div>
+          <div id="stat-pass-rate" class="font-display text-3xl font-bold text-forest mt-1">0%</div>
+        </div>
+        <div class="bg-white p-5 border-2 border-ink hard-shadow-sm">
+          <div class="text-[11px] font-bold text-muted uppercase">03 // Mean Score</div>
+          <div id="stat-avg-score" class="font-display text-3xl font-bold text-signal mt-1">0 / 50</div>
+        </div>
+        <div class="bg-white p-5 border-2 border-ink hard-shadow-sm">
+          <div class="text-[11px] font-bold text-muted uppercase">04 // Passing Standard</div>
+          <div class="font-display text-3xl font-bold text-ink mt-1">50% <span class="text-xs font-mono font-normal text-muted">(25/50)</span></div>
+        </div>
+      </div>
+
+      <!-- Results Ledger Table -->
+      <div class="bg-white border-2 border-ink hard-shadow overflow-hidden flex flex-col flex-grow">
+        <div class="p-4 bg-paper border-b-2 border-ink flex flex-wrap items-center justify-between gap-3 font-mono">
+          <h3 class="font-bold text-ink text-xs sm:text-sm uppercase flex items-center gap-2">
+            <i class="fa-solid fa-table-list text-signal"></i>
+            <span>Sealed Examination Submissions</span>
+          </h3>
+          <div class="text-[11px] text-muted">
+            Authorized Cohort: <strong class="text-ink">rajveer_singh • udvita_singh • unnati_singh • demo_tester</strong>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto flex-grow">
+          <table class="w-full text-left border-collapse text-xs sm:text-sm">
+            <thead class="bg-ink text-alabaster font-mono uppercase text-[11px] tracking-wider border-b-2 border-ink">
+              <tr>
+                <th class="py-3.5 px-4">Candidate Name</th>
+                <th class="py-3.5 px-4">Username</th>
+                <th class="py-3.5 px-4">Timestamp</th>
+                <th class="py-3.5 px-4 text-center">Raw Score</th>
+                <th class="py-3.5 px-4 text-center">Percentage</th>
+                <th class="py-3.5 px-4 text-center">Verdict</th>
+                <th class="py-3.5 px-4 text-center">Duration</th>
+                <th class="py-3.5 px-4 text-right">Director Actions</th>
+              </tr>
+            </thead>
+            <tbody id="admin-table-body" class="divide-y divide-hairline text-ink font-medium">
+              <!-- Populated by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+
+        <div id="admin-empty-state" class="hidden p-12 text-center font-mono">
+          <i class="fa-solid fa-folder-open text-4xl text-muted mb-3"></i>
+          <h4 class="text-base font-bold text-ink uppercase">No Examination Packets Logged Yet</h4>
+          <p class="text-xs text-muted mt-1 max-w-md mx-auto">
+            Once <code class="text-ink font-bold">rajveer_singh</code>, <code class="text-ink font-bold">udvita_singh</code>, <code class="text-ink font-bold">unnati_singh</code>, or <code class="text-ink font-bold">demo_tester</code> submit their test, their sealed results will appear here for evaluation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================================================================
+       MODAL 1: CANDIDATE EXAM SUBMISSION CONFIRMATION
+       ================================================================= -->
+  <div id="confirm-modal" class="fixed inset-0 z-50 bg-ink/80 backdrop-blur-xs hidden flex items-center justify-center p-4">
+    <div class="bg-alabaster border-2 border-ink hard-shadow-orange max-w-md w-full p-6 sm:p-8">
+      <div class="flex items-center justify-between border-b border-ink pb-2.5 mb-4 font-mono text-xs">
+        <span class="text-signal font-bold uppercase">// FINAL CONFIRMATION</span>
+        <span class="font-bold">NTI-DCA-2026</span>
+      </div>
+      <h3 class="font-display text-xl font-bold text-ink">Seal &amp; Submit Examination Paper?</h3>
+      <p class="text-xs sm:text-sm text-muted mt-2 leading-relaxed">
+        You have recorded answers for <strong id="modal-answered-count" class="text-ink font-mono underline">0</strong> out of <strong>50</strong> questions. Once sealed, your session will terminate and your paper will be locked for Instructor review.
+      </p>
+
+      <div class="mt-6 pt-4 border-t border-hairline flex items-center justify-end space-x-3 font-mono">
+        <button onclick="closeConfirmModal()" class="px-4 py-2.5 bg-white border-2 border-ink text-ink text-xs font-bold uppercase hover:bg-paper">
+          Return to Questions
+        </button>
+        <button onclick="finalizeAndSubmitExam(false)" class="px-5 py-2.5 bg-signal hover:bg-signalDark text-white border-2 border-ink text-xs font-bold uppercase hard-btn">
+          Confirm &amp; Seal Paper
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       MODAL 2: ADMIN CLEAR RECORDS CONFIRMATION (NO BROWSER confirm())
+       ================================================================= -->
+  <div id="clear-logs-modal" class="fixed inset-0 z-50 bg-ink/80 backdrop-blur-xs hidden flex items-center justify-center p-4">
+    <div class="bg-alabaster border-2 border-ink hard-shadow max-w-md w-full p-6 sm:p-8">
+      <div class="font-mono text-xs font-bold text-red-700 uppercase border-b border-ink pb-2 mb-4">
+        // WARNING // DESTRUCTIVE ACTION
+      </div>
+      <h3 class="font-display text-xl font-bold text-ink">Purge All Stored Exam Logs?</h3>
+      <p class="text-xs sm:text-sm text-muted mt-2">
+        This will permanently remove all recorded student examination submissions from local storage. This operation cannot be reversed.
+      </p>
+      <div class="mt-6 flex items-center justify-end space-x-3 font-mono">
+        <button onclick="closeClearLogsModal()" class="px-4 py-2 bg-white border-2 border-ink text-ink text-xs font-bold uppercase">
+          Cancel
+        </button>
+        <button onclick="executeClearRecords()" class="px-4 py-2 bg-red-600 hover:bg-red-700 text-white border-2 border-ink text-xs font-bold uppercase">
+          Yes, Purge Ledger
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       MODAL 3: ADMIN ANSWER KEY AUDIT BREAKDOWN
+       ================================================================= -->
+  <div id="admin-detail-modal" class="fixed inset-0 z-50 bg-ink/80 backdrop-blur-xs hidden flex items-center justify-center p-4">
+    <div class="bg-alabaster border-2 border-ink hard-shadow-orange max-w-3xl w-full p-6 shadow-2xl flex flex-col max-h-[90vh]">
+      <div class="flex items-center justify-between pb-3 border-b-2 border-ink">
+        <div>
+          <span class="font-mono text-[10px] uppercase px-2 py-0.5 bg-ink text-amber-300 font-bold">ANSWER KEY AUDIT</span>
+          <h3 id="modal-student-title" class="font-display text-lg sm:text-xl font-bold text-ink mt-1">Candidate Examination Paper</h3>
+          <p id="modal-student-meta" class="font-mono text-xs text-muted">Breakdown of submitted answers vs official key</p>
+        </div>
+        <button onclick="closeAdminDetailModal()" class="w-9 h-9 bg-white border-2 border-ink hover:bg-signal hover:text-white font-mono font-bold">
+          ✕
+        </button>
+      </div>
+
+      <!-- Question list in modal -->
+      <div id="admin-detail-list" class="overflow-y-auto my-4 space-y-3 pr-2 flex-grow text-xs sm:text-sm">
+        <!-- Rendered by JS -->
+      </div>
+
+      <div class="pt-3 border-t-2 border-ink flex justify-end font-mono">
+        <button onclick="closeAdminDetailModal()" class="px-5 py-2 bg-ink text-white border border-ink text-xs font-bold uppercase hover:bg-signal">
+          Close Audit Sheet
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       MODAL 4: OFFICIAL CERTIFICATE GENERATOR (ADMIN ONLY)
+       ================================================================= -->
+  <div id="certificate-modal" class="fixed inset-0 z-50 bg-ink/90 backdrop-blur-md hidden flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
+    <div class="bg-alabaster border-2 border-ink hard-shadow-orange max-w-5xl w-full p-4 sm:p-6 my-auto flex flex-col">
+      <!-- Modal Header Toolbar -->
+      <div class="flex flex-wrap items-center justify-between gap-3 pb-3 border-b-2 border-ink mb-4 font-mono">
+        <div class="flex items-center space-x-2.5">
+          <span class="w-9 h-9 bg-ink text-amber-300 border border-ink flex items-center justify-center">
+            <i class="fa-solid fa-award"></i>
+          </span>
+          <div>
+            <h3 class="font-display text-sm sm:text-base font-bold text-ink uppercase">NueTech Industries Pvt Ltd — Official Diploma Generator</h3>
+            <p class="text-[11px] text-muted">Restricted Instructor Tool • High-Resolution PNG &amp; Landscape PDF Print</p>
+          </div>
+        </div>
+        
+        <div class="flex items-center space-x-2">
+          <button onclick="downloadCertificateImage()" class="px-3.5 py-2 bg-signal hover:bg-signalDark text-white border-2 border-ink font-bold text-xs uppercase hard-btn flex items-center gap-1.5">
+            <i class="fa-solid fa-download"></i>
+            <span>Download HD PNG</span>
+          </button>
+          <button onclick="printCertificateWindow()" class="px-3.5 py-2 bg-ink hover:bg-neutral-800 text-amber-300 border-2 border-ink font-bold text-xs uppercase hard-btn flex items-center gap-1.5">
+            <i class="fa-solid fa-print"></i>
+            <span>Print / Save PDF</span>
+          </button>
+          <button onclick="closeCertificateModal()" class="w-9 h-9 bg-white border-2 border-ink hover:bg-red-600 hover:text-white font-bold text-sm">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <!-- Scrollable Certificate Container for Display -->
+      <div class="overflow-x-auto p-2 bg-paper border border-ink flex justify-center">
+        <!-- WRAPPER TARGET FOR HTML2CANVAS & PRINT -->
+        <div id="printable-certificate-wrapper" class="bg-white p-2 shadow-lg inline-block">
+          <!-- The Certificate Design Body (A4 Landscape aspect ratio 1040px x 720px) -->
+          <div id="certificate-render-element" class="w-[1040px] h-[720px] bg-[#fffdf7] text-slate-900 p-8 relative flex flex-col justify-between border-[12px] border-[#141413] select-none overflow-hidden">
+            
+            <!-- Ornate Outer Gold Border line -->
+            <div class="absolute inset-2 border-2 border-[#d4af37] pointer-events-none"></div>
+            <!-- Inner Thin Gold Border line -->
+            <div class="absolute inset-3.5 border border-[#d4af37]/70 pointer-events-none"></div>
+
+            <!-- Architectural Corner Accents -->
+            <div class="absolute top-4 left-4 w-12 h-12 border-t-4 border-l-4 border-[#EF5F17] pointer-events-none"></div>
+            <div class="absolute top-4 right-4 w-12 h-12 border-t-4 border-r-4 border-[#EF5F17] pointer-events-none"></div>
+            <div class="absolute bottom-4 left-4 w-12 h-12 border-b-4 border-l-4 border-[#EF5F17] pointer-events-none"></div>
+            <div class="absolute bottom-4 right-4 w-12 h-12 border-b-4 border-r-4 border-[#EF5F17] pointer-events-none"></div>
+
+            <!-- Watermark Crest -->
+            <div class="absolute inset-0 flex items-center justify-center opacity-[0.035] pointer-events-none">
+              <i class="fa-solid fa-graduation-cap text-[320px] text-slate-900"></i>
+            </div>
+
+            <!-- Top Header Section -->
+            <div class="relative z-10 text-center pt-2">
+              <div class="flex items-center justify-center space-x-2 text-amber-700 text-xs tracking-[0.28em] uppercase font-bold mb-1 font-mono">
+                <span>★</span><span>★</span><span>★</span>
+                <span>BOARD OF TECHNICAL LITERACY &amp; COMPUTER ACCREDITATION</span>
+                <span>★</span><span>★</span><span>★</span>
+              </div>
+              <h1 class="text-3xl font-extrabold tracking-widest text-[#141413] uppercase font-cinzel">
+                NueTech Industries Pvt Ltd
+              </h1>
+              <p class="text-xs tracking-[0.22em] text-[#EF5F17] uppercase font-bold mt-0.5 font-mono">
+                Software Engineering Foundry &amp; DCA Examination Directorate
+              </p>
+              <div class="w-56 h-0.5 bg-gradient-to-r from-transparent via-amber-500 to-transparent mx-auto mt-2"></div>
+            </div>
+
+            <!-- Certificate Title -->
+            <div class="relative z-10 text-center my-1">
+              <h2 class="text-4xl font-extrabold tracking-wide uppercase font-cinzel text-slate-900">
+                Certificate of Achievement
+              </h2>
+              <p class="text-xs uppercase tracking-[0.2em] text-slate-500 font-semibold mt-1 font-mono">
+                This official credential is proudly conferred upon
+              </p>
+            </div>
+
+            <!-- Student Name Section -->
+            <div class="relative z-10 text-center my-1">
+              <div id="cert-student-name" class="text-4xl sm:text-5xl font-bold font-playfair text-[#141413] underline decoration-[#EF5F17] decoration-2 underline-offset-8">
+                Rajveer Singh
+              </div>
+              <p class="text-xs text-slate-600 max-w-2xl mx-auto mt-4 leading-relaxed font-serif">
+                for demonstrating verified proficiency and successfully satisfying the proctored examination standards prescribed by NueTech Industries Pvt Ltd for:
+              </p>
+              <h3 class="text-xl font-bold text-slate-900 uppercase font-cinzel tracking-wider mt-1.5">
+                Diploma in Computer Applications (DCA) — 2026
+              </h3>
+              <p class="text-[11px] font-mono text-slate-500 mt-0.5">
+                Modules: Computer Architecture • Windows OS • MS Office Suite (Word, Excel, PowerPoint) • Networking &amp; Cyber Hygiene
+              </p>
+            </div>
+
+            <!-- Score and Grade Metrics Box -->
+            <div class="relative z-10 max-w-2xl mx-auto w-full bg-[#FAF8F5] border-2 border-[#141413] py-2.5 px-6 grid grid-cols-4 gap-3 text-center text-xs font-mono">
+              <div>
+                <span class="block text-[10px] text-slate-500 uppercase font-bold">Examination Score</span>
+                <span id="cert-score" class="font-extrabold text-sm text-slate-900">48 / 50</span>
+              </div>
+              <div class="border-l border-slate-300">
+                <span class="block text-[10px] text-slate-500 uppercase font-bold">Percentage</span>
+                <span id="cert-percent" class="font-extrabold text-sm text-[#EF5F17]">96%</span>
+              </div>
+              <div class="border-l border-slate-300">
+                <span class="block text-[10px] text-slate-500 uppercase font-bold">Standing</span>
+                <span id="cert-grade" class="font-extrabold text-sm text-emerald-800">Distinction</span>
+              </div>
+              <div class="border-l border-slate-300">
+                <span class="block text-[10px] text-slate-500 uppercase font-bold">Accreditation</span>
+                <span id="cert-status" class="font-extrabold text-sm text-slate-900">Verified 2026</span>
+              </div>
+            </div>
+
+            <!-- Bottom Section: Official Gold Seal & Signatures -->
+            <div class="relative z-10 flex items-end justify-between px-8 pb-3 pt-2">
+              <!-- Left: Date & Verification ID -->
+              <div class="text-left space-y-1 font-mono">
+                <div class="text-xs">
+                  <span class="text-slate-400 font-bold uppercase text-[10px] block">Date of Conferral:</span>
+                  <span id="cert-date" class="font-bold text-slate-900">November 1, 2026</span>
+                </div>
+                <div class="text-xs">
+                  <span class="text-slate-400 font-bold uppercase text-[10px] block">Verification Registry ID:</span>
+                  <span id="cert-verification-id" class="text-[11px] font-bold text-[#EF5F17]">NTI-DCA-2026-XXXX</span>
+                </div>
+              </div>
+
+              <!-- Center: Official Medallion Seal -->
+              <div class="relative flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-amber-500 via-amber-300 to-yellow-600 p-1 shadow-md flex items-center justify-center border-2 border-[#141413]">
+                  <div class="w-full h-full rounded-full border-2 border-dashed border-slate-900 flex flex-col items-center justify-center text-center p-1 bg-amber-400/90 text-slate-900">
+                    <i class="fa-solid fa-shield-halved text-sm text-slate-900"></i>
+                    <span class="text-[8px] font-black tracking-tighter uppercase font-cinzel leading-none mt-0.5">NueTech</span>
+                    <span class="text-[7px] font-bold uppercase tracking-widest font-mono">SEAL 2026</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right: Official Signatory -->
+              <div class="text-center w-56">
+                <div class="font-script text-3xl text-slate-900 mb-[-8px]">
+                  Abhinav Singh
+                </div>
+                <div class="w-full border-b-2 border-slate-900 my-1"></div>
+                <div class="text-xs font-bold text-slate-900 uppercase font-mono">Abhinav Singh</div>
+                <div class="text-[10px] text-slate-500 uppercase tracking-wider font-mono font-semibold">Director &amp; Program Head, NueTech Industries Pvt Ltd</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="pt-3 mt-3 border-t border-ink flex justify-between items-center text-xs font-mono text-muted">
+        <span>Official Credential Issued by NueTech Industries Pvt Ltd</span>
+        <button onclick="closeCertificateModal()" class="px-4 py-2 bg-white border-2 border-ink text-ink font-bold uppercase hover:bg-paper">
+          Close Preview
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-ink text-alabaster border-t-2 border-ink py-4 text-center font-mono text-[11px]">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <span>© 2026 <strong>NueTech Industries Pvt Ltd</strong> • DCA Examination &amp; Certification Board</span>
+      <span class="text-neutral-400">PROCTORED ASSESSMENT ENGINE // REV 2026.4</span>
+    </div>
+  </footer>
+
+  <!-- =================================================================
+       APPLICATION JAVASCRIPT LOGIC
+       ================================================================= -->
+  <script>
+    /* 0. LIVE IST TELEMETRY CLOCK */
+    function updateClock() {
+      const now = new Date();
+      const options = { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+      const timeString = new Intl.DateTimeFormat('en-IN', options).format(now);
+      const clockEl = document.getElementById('live-ist-clock');
+      if (clockEl) clockEl.innerText = `IST ${timeString} // ONLINE`;
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+
+    /* =====================================================================
+       1. 100 DCA QUESTION BANK (Curated for 7th Grade DCA Syllabus)
+       ===================================================================== */
+    const DCA_QUESTION_BANK = [
+      {
+        id: 1,
+        category: "Fundamentals",
+        q: "What does the abbreviation 'CPU' stand for in computer systems?",
+        options: ["Central Processing Unit", "Central Program Utility", "Computer Processing Unit", "Control Power Unit"],
+        answer: 0
+      },
+      {
+        id: 2,
+        category: "Fundamentals",
+        q: "Which of the following is considered the 'Brain' of the computer?",
+        options: ["Monitor", "Hard Disk", "Central Processing Unit (CPU)", "Keyboard"],
+        answer: 2
+      },
+      {
+        id: 3,
+        category: "Hardware",
+        q: "Which of the following is an INPUT device?",
+        options: ["Laser Printer", "Optical Mouse", "LCD Monitor", "Speaker"],
+        answer: 1
+      },
+      {
+        id: 4,
+        category: "Hardware",
+        q: "Which device is used to produce a hard copy (physical print) of a document?",
+        options: ["Scanner", "Projector", "Printer", "Microphone"],
+        answer: 2
+      },
+      {
+        id: 5,
+        category: "Fundamentals",
+        q: "What is the full form of 'RAM'?",
+        options: ["Random Access Memory", "Read Access Memory", "Rapid Action Module", "Run Active Memory"],
+        answer: 0
+      },
+      {
+        id: 6,
+        category: "Fundamentals",
+        q: "What does 'ROM' stand for?",
+        options: ["Read Only Memory", "Random Output Memory", "Real Operational Memory", "Run Only Mechanism"],
+        answer: 0
+      },
+      {
+        id: 7,
+        category: "Memory",
+        q: "RAM is a type of memory that loses its contents when power is turned off. It is called:",
+        options: ["Permanent Memory", "Volatile Memory", "Optical Memory", "Secondary Memory"],
+        answer: 1
+      },
+      {
+        id: 8,
+        category: "Units",
+        q: "How many bits make up 1 Byte?",
+        options: ["4 bits", "8 bits", "16 bits", "1024 bits"],
+        answer: 1
+      },
+      {
+        id: 9,
+        category: "Units",
+        q: "1 Kilobyte (KB) is exactly equal to how many bytes?",
+        options: ["1000 Bytes", "1024 Bytes", "512 Bytes", "2048 Bytes"],
+        answer: 1
+      },
+      {
+        id: 10,
+        category: "Units",
+        q: "What unit of digital storage is equivalent to 1024 Megabytes (MB)?",
+        options: ["1 Kilobyte (KB)", "1 Terabyte (TB)", "1 Gigabyte (GB)", "1 Petabyte (PB)"],
+        answer: 2
+      },
+      {
+        id: 11,
+        category: "Software",
+        q: "Which of the following is system software that manages computer hardware and applications?",
+        options: ["MS Word", "Operating System", "Adobe Photoshop", "Google Chrome"],
+        answer: 1
+      },
+      {
+        id: 12,
+        category: "Windows OS",
+        q: "Which operating system is developed by Microsoft?",
+        options: ["Ubuntu", "macOS", "Windows", "Android"],
+        answer: 2
+      },
+      {
+        id: 13,
+        category: "Shortcuts",
+        q: "Which keyboard shortcut is used to copy selected text or files in Windows?",
+        options: ["Ctrl + V", "Ctrl + C", "Ctrl + X", "Ctrl + Z"],
+        answer: 1
+      },
+      {
+        id: 14,
+        category: "Shortcuts",
+        q: "Which shortcut key combination pastes the copied text from the clipboard?",
+        options: ["Ctrl + P", "Ctrl + C", "Ctrl + V", "Ctrl + S"],
+        answer: 2
+      },
+      {
+        id: 15,
+        category: "Shortcuts",
+        q: "Which shortcut key reverses the last action (Undo)?",
+        options: ["Ctrl + U", "Ctrl + Y", "Ctrl + Z", "Ctrl + R"],
+        answer: 2
+      },
+      {
+        id: 16,
+        category: "Shortcuts",
+        q: "Which shortcut key is used to save an active document or file quickly?",
+        options: ["Ctrl + S", "Ctrl + A", "Ctrl + W", "Ctrl + F"],
+        answer: 0
+      },
+      {
+        id: 17,
+        category: "Shortcuts",
+        q: "What is the shortcut key to select all content in a document or folder?",
+        options: ["Ctrl + S", "Ctrl + L", "Ctrl + A", "Ctrl + Shift + A"],
+        answer: 2
+      },
+      {
+        id: 18,
+        category: "Shortcuts",
+        q: "Which shortcut opens the standard Print dialog box in most applications?",
+        options: ["Ctrl + P", "Ctrl + Shift + P", "Alt + P", "Ctrl + PrtScn"],
+        answer: 0
+      },
+      {
+        id: 19,
+        category: "Shortcuts",
+        q: "Which shortcut cuts the selected item so you can move it to another location?",
+        options: ["Ctrl + K", "Ctrl + X", "Ctrl + C", "Ctrl + D"],
+        answer: 1
+      },
+      {
+        id: 20,
+        category: "MS Word",
+        q: "Microsoft Word is best classified as which type of application software?",
+        options: ["Database Management Tool", "Spreadsheet Program", "Word Processing Software", "Web Browser"],
+        answer: 2
+      },
+      {
+        id: 21,
+        category: "MS Word",
+        q: "What is the default file extension for documents saved in modern MS Word?",
+        options: [".txt", ".docx", ".xlsx", ".pptx"],
+        answer: 1
+      },
+      {
+        id: 22,
+        category: "MS Word",
+        q: "Which key combination makes the selected text BOLD in MS Word?",
+        options: ["Ctrl + B", "Ctrl + D", "Alt + B", "Shift + B"],
+        answer: 0
+      },
+      {
+        id: 23,
+        category: "MS Word",
+        q: "Which key combination applies italics to the selected text?",
+        options: ["Ctrl + T", "Ctrl + I", "Ctrl + J", "Alt + I"],
+        answer: 1
+      },
+      {
+        id: 24,
+        category: "MS Word",
+        q: "Which shortcut underlines selected text in Microsoft Word?",
+        options: ["Ctrl + N", "Ctrl + U", "Ctrl + L", "Alt + U"],
+        answer: 1
+      },
+      {
+        id: 25,
+        category: "MS Word",
+        q: "In MS Word, which alignment spreads text evenly between both left and right margins?",
+        options: ["Left Align", "Center Align", "Justify", "Right Align"],
+        answer: 2
+      },
+      {
+        id: 26,
+        category: "MS Word",
+        q: "Which feature in MS Word automatically identifies and underlines misspelled words in wavy red?",
+        options: ["Thesaurus", "Spell Check", "WordArt", "Mail Merge"],
+        answer: 1
+      },
+      {
+        id: 27,
+        category: "MS Word",
+        q: "Which tool in MS Word allows you to find synonyms (words with similar meanings)?",
+        options: ["Grammar Check", "Thesaurus", "Word Count", "Font Styler"],
+        answer: 1
+      },
+      {
+        id: 28,
+        category: "MS Excel",
+        q: "Microsoft Excel is primarily used for creating and managing:",
+        options: ["Slide Presentations", "Spreadsheets & Calculations", "Video Editing", "Vector Graphics"],
+        answer: 1
+      },
+      {
+        id: 29,
+        category: "MS Excel",
+        q: "In MS Excel, the intersection of a vertical column and a horizontal row is called a:",
+        options: ["Grid", "Block", "Cell", "Tile"],
+        answer: 2
+      },
+      {
+        id: 30,
+        category: "MS Excel",
+        q: "Every formula or function in Microsoft Excel MUST begin with which mathematical symbol?",
+        options: ["# (Hash)", "= (Equal)", "+ (Plus)", ": (Colon)"],
+        answer: 1
+      },
+      {
+        id: 31,
+        category: "MS Excel",
+        q: "What is the standard file extension for Microsoft Excel workbooks?",
+        options: [".xlsx", ".exl", ".docm", ".dbf"],
+        answer: 0
+      },
+      {
+        id: 32,
+        category: "MS Excel",
+        q: "Which built-in Excel function is used to add together a range of numbers?",
+        options: ["=TOTAL()", "=ADD()", "=SUM()", "=COUNT()"],
+        answer: 2
+      },
+      {
+        id: 33,
+        category: "MS Excel",
+        q: "Which function finds the arithmetic average of a selected set of numbers in Excel?",
+        options: ["=MEAN()", "=MEDIAN()", "=AVERAGE()", "=SUMAVG()"],
+        answer: 2
+      },
+      {
+        id: 34,
+        category: "MS Excel",
+        q: "In Excel, rows are identified by numbers (1, 2, 3...) while columns are labeled by:",
+        options: ["Letters (A, B, C...)", "Roman Numerals (I, II, III...)", "Colors", "Symbols"],
+        answer: 0
+      },
+      {
+        id: 35,
+        category: "MS Excel",
+        q: "What would the formula '=5*4' display in an Excel cell?",
+        options: ["5*4", "9", "20", "Error"],
+        answer: 2
+      },
+      {
+        id: 36,
+        category: "MS PowerPoint",
+        q: "Microsoft PowerPoint is primarily designed to build:",
+        options: ["Webpages", "Slide Presentations", "Databases", "Financial Audits"],
+        answer: 1
+      },
+      {
+        id: 37,
+        category: "MS PowerPoint",
+        q: "Which function key starts a slide show from the very first slide in MS PowerPoint?",
+        options: ["F1", "F2", "F5", "F11"],
+        answer: 2
+      },
+      {
+        id: 38,
+        category: "MS PowerPoint",
+        q: "What is the default file extension for modern PowerPoint presentations?",
+        options: [".pptx", ".pptshow", ".pps", ".pwt"],
+        answer: 0
+      },
+      {
+        id: 39,
+        category: "MS PowerPoint",
+        q: "The visual motion effect that occurs when advancing from one slide to another is called:",
+        options: ["Slide Transition", "Custom Animation", "Morphing Sound", "Slide Design"],
+        answer: 0
+      },
+      {
+        id: 40,
+        category: "MS PowerPoint",
+        q: "Which key on the keyboard instantly exits an active PowerPoint slide show?",
+        options: ["Enter", "Esc (Escape)", "Spacebar", "Backspace"],
+        answer: 1
+      },
+      {
+        id: 41,
+        category: "Internet",
+        q: "What does the acronym 'WWW' stand for in Internet terminology?",
+        options: ["World Wide Web", "World Web Wide", "Wide World Webbing", "Web World Wide"],
+        answer: 0
+      },
+      {
+        id: 42,
+        category: "Internet",
+        q: "Which of the following is a Web Browser software?",
+        options: ["Google Chrome", "Mozilla Firefox", "Microsoft Edge", "All of the above"],
+        answer: 3
+      },
+      {
+        id: 43,
+        category: "Internet",
+        q: "What does 'URL' stand for in internet addresses?",
+        options: ["Uniform Resource Locator", "Universal Resource Link", "Unified Reference Locator", "United Resource Line"],
+        answer: 0
+      },
+      {
+        id: 44,
+        category: "Internet",
+        q: "In an email address like 'student@gmail.com', what does the '@' symbol represent?",
+        options: ["And", "At", "Around", "Attach"],
+        answer: 1
+      },
+      {
+        id: 45,
+        category: "Internet",
+        q: "What is the full form of 'LAN' in computer networking?",
+        options: ["Local Area Network", "Large Area Network", "Link Access Network", "Line Area Network"],
+        answer: 0
+      },
+      {
+        id: 46,
+        category: "Internet",
+        q: "What does 'WAN' stand for?",
+        options: ["Wide Area Network", "Wireless Access Node", "World Array Network", "Web Area Network"],
+        answer: 0
+      },
+      {
+        id: 47,
+        category: "Cyber Safety",
+        q: "Which of the following is a harmful software designed to damage or gain unauthorized access to computer systems?",
+        options: ["Antivirus", "Malware / Computer Virus", "Firewall", "Web Browser"],
+        answer: 1
+      },
+      {
+        id: 48,
+        category: "Cyber Safety",
+        q: "Which of the following makes the STRONGEST password?",
+        options: ["12345678", "password", "NueTech#2026!k", "rajveer"],
+        answer: 2
+      },
+      {
+        id: 49,
+        category: "Hardware",
+        q: "Which device is commonly used to play sound or music generated by a computer?",
+        options: ["Scanner", "Plotter", "Speakers / Headphones", "Microphone"],
+        answer: 2
+      },
+      {
+        id: 50,
+        category: "Fundamentals",
+        q: "Who is widely acknowledged as the 'Father of Computers'?",
+        options: ["Charles Babbage", "Alan Turing", "Bill Gates", "Blaise Pascal"],
+        answer: 0
+      },
+      {
+        id: 51,
+        category: "Fundamentals",
+        q: "Who is known as the world's first computer programmer?",
+        options: ["Ada Lovelace", "Grace Hopper", "Marie Curie", "Steve Jobs"],
+        answer: 0
+      },
+      {
+        id: 52,
+        category: "Hardware",
+        q: "Which of the following ports is commonly used to connect flash drives and mice to a computer?",
+        options: ["VGA Port", "USB (Universal Serial Bus)", "HDMI", "Ethernet"],
+        answer: 1
+      },
+      {
+        id: 53,
+        category: "Hardware",
+        q: "What does 'USB' stand for?",
+        options: ["Universal Serial Bus", "United System Bus", "Universal Standard Board", "Unified Serial Battery"],
+        answer: 0
+      },
+      {
+        id: 54,
+        category: "Windows OS",
+        q: "Deleted files and folders in Windows are temporarily moved to the:",
+        options: ["Recycle Bin", "Control Panel", "Taskbar", "Downloads"],
+        answer: 0
+      },
+      {
+        id: 55,
+        category: "Windows OS",
+        q: "Which bar in Windows is located at the very bottom of the screen containing the Start menu and clock?",
+        options: ["Title Bar", "Scroll Bar", "Taskbar", "Status Bar"],
+        answer: 2
+      },
+      {
+        id: 56,
+        category: "Windows OS",
+        q: "Which key combination permanently deletes a file without sending it to the Recycle Bin?",
+        options: ["Shift + Delete", "Ctrl + Delete", "Alt + Delete", "Ctrl + Backspace"],
+        answer: 0
+      },
+      {
+        id: 57,
+        category: "Shortcuts",
+        q: "Which function key is traditionally used to access 'Help' in most Windows programs?",
+        options: ["F1", "F4", "F8", "F12"],
+        answer: 0
+      },
+      {
+        id: 58,
+        category: "Shortcuts",
+        q: "Which shortcut closes the active application window in Windows?",
+        options: ["Alt + F4", "Ctrl + F4", "Shift + F4", "Esc + Tab"],
+        answer: 0
+      },
+      {
+        id: 59,
+        category: "Shortcuts",
+        q: "Which shortcut switches between open applications in Windows?",
+        options: ["Alt + Tab", "Ctrl + Tab", "Shift + Tab", "Win + Space"],
+        answer: 0
+      },
+      {
+        id: 60,
+        category: "Shortcuts",
+        q: "Which shortcut refreshes or reloads the active webpage or desktop view?",
+        options: ["F2", "F5", "F7", "F9"],
+        answer: 1
+      },
+      {
+        id: 61,
+        category: "Shortcuts",
+        q: "Which shortcut key renames a selected file or folder in Windows Explorer?",
+        options: ["F2", "F3", "F6", "F10"],
+        answer: 0
+      },
+      {
+        id: 62,
+        category: "MS Word",
+        q: "In MS Word, which orientation lays the page out horizontally (wider than it is tall)?",
+        options: ["Portrait", "Landscape", "Vertical", "Square"],
+        answer: 1
+      },
+      {
+        id: 63,
+        category: "MS Word",
+        q: "The standard default page orientation in MS Word is:",
+        options: ["Portrait", "Landscape", "Panoramic", "Banner"],
+        answer: 0
+      },
+      {
+        id: 64,
+        category: "MS Word",
+        q: "Which feature allows you to send personalized letters to hundreds of recipients at once in MS Word?",
+        options: ["Mail Merge", "Macro", "AutoText", "Styles"],
+        answer: 0
+      },
+      {
+        id: 65,
+        category: "MS Word",
+        q: "Text that appears at the top of every page in a document is called a:",
+        options: ["Footer", "Header", "Watermark", "Caption"],
+        answer: 1
+      },
+      {
+        id: 66,
+        category: "MS Word",
+        q: "Text or notes that appear at the bottom of every page in a document are called a:",
+        options: ["Header", "Footer", "Footnote", "Sidebar"],
+        answer: 1
+      },
+      {
+        id: 67,
+        category: "MS Word",
+        q: "Which shortcut key combination centers the selected paragraph in MS Word?",
+        options: ["Ctrl + C", "Ctrl + E", "Ctrl + M", "Ctrl + J"],
+        answer: 1
+      },
+      {
+        id: 68,
+        category: "MS Excel",
+        q: "In MS Excel, what is the address of the very first cell in a worksheet?",
+        options: ["A0", "A1", "1A", "Cell1"],
+        answer: 1
+      },
+      {
+        id: 69,
+        category: "MS Excel",
+        q: "Which formula calculates the maximum (highest) value in cells A1 through A10?",
+        options: ["=HIGH(A1:A10)", "=MAX(A1:A10)", "=TOP(A1:A10)", "=UPPER(A1:A10)"],
+        answer: 1
+      },
+      {
+        id: 70,
+        category: "MS Excel",
+        q: "Which formula finds the lowest (minimum) number in cells B1 through B10?",
+        options: ["=LEAST(B1:B10)", "=LOW(B1:B10)", "=MIN(B1:B10)", "=BOTTOM(B1:B10)"],
+        answer: 2
+      },
+      {
+        id: 71,
+        category: "MS Excel",
+        q: "A graphical representation of data in MS Excel is called a:",
+        options: ["Chart / Graph", "Clipart", "Slide", "Macro"],
+        answer: 0
+      },
+      {
+        id: 72,
+        category: "MS Excel",
+        q: "What symbol in Excel represents the mathematical operation of multiplication?",
+        options: ["x", "* (Asterisk)", "^ (Caret)", "%"],
+        answer: 1
+      },
+      {
+        id: 73,
+        category: "MS Excel",
+        q: "What symbol in Excel represents the mathematical operation of division?",
+        options: ["\\", "/ (Slash)", "÷", ":"],
+        answer: 1
+      },
+      {
+        id: 74,
+        category: "MS PowerPoint",
+        q: "In PowerPoint, which shortcut creates and inserts a NEW SLIDE?",
+        options: ["Ctrl + N", "Ctrl + M", "Ctrl + S", "Alt + N"],
+        answer: 1
+      },
+      {
+        id: 75,
+        category: "MS PowerPoint",
+        q: "Which view in PowerPoint displays thumbnail miniatures of all slides for easy reordering?",
+        options: ["Slide Sorter View", "Reading View", "Notes View", "Master View"],
+        answer: 0
+      },
+      {
+        id: 76,
+        category: "MS PowerPoint",
+        q: "To add animations to bullet points, images, and text boxes, you use the:",
+        options: ["Design Tab", "Animations Tab", "Review Tab", "Formulas Tab"],
+        answer: 1
+      },
+      {
+        id: 77,
+        category: "Hardware",
+        q: "Which computer component contains the CPU, RAM sockets, and expansion slots?",
+        options: ["Motherboard", "Hard Drive", "SMPS Power Supply", "Heat Sink"],
+        answer: 0
+      },
+      {
+        id: 78,
+        category: "Storage",
+        q: "Which storage technology has no moving mechanical parts and is much faster than traditional hard drives?",
+        options: ["Floppy Disk", "SSD (Solid State Drive)", "CD-ROM", "Magnetic Tape"],
+        answer: 1
+      },
+      {
+        id: 79,
+        category: "Storage",
+        q: "What is the typical storage capacity of a standard CD-ROM?",
+        options: ["1.44 MB", "700 MB", "4.7 GB", "50 GB"],
+        answer: 1
+      },
+      {
+        id: 80,
+        category: "Storage",
+        q: "What does 'DVD' stand for?",
+        options: ["Digital Versatile Disc", "Digital Video Display", "Data Volume Disc", "Dynamic Vector Device"],
+        answer: 0
+      },
+      {
+        id: 81,
+        category: "Internet",
+        q: "What does 'HTTP' stand for in web browsing?",
+        options: ["Hypertext Transfer Protocol", "High Text Transmission Protocol", "Hyper Tool Transfer Program", "Hybrid Text Terminal Port"],
+        answer: 0
+      },
+      {
+        id: 82,
+        category: "Internet",
+        q: "In 'HTTPS', what does the 'S' stand for?",
+        options: ["Simple", "Secure", "Server", "Speed"],
+        answer: 1
+      },
+      {
+        id: 83,
+        category: "Internet",
+        q: "Which of the following is a popular Internet Search Engine?",
+        options: ["Google", "Bing", "Yahoo", "All of the above"],
+        answer: 3
+      },
+      {
+        id: 84,
+        category: "Internet",
+        q: "What is downloading in computer terms?",
+        options: ["Sending files from your PC to internet", "Copying files from internet to your computer", "Deleting files on PC", "Restarting your router"],
+        answer: 1
+      },
+      {
+        id: 85,
+        category: "Internet",
+        q: "What is uploading?",
+        options: ["Transferring files from local computer to a remote server", "Scanning a paper document", "Installing software", "Printing a webpage"],
+        answer: 0
+      },
+      {
+        id: 86,
+        category: "Email",
+        q: "In an email client, what does 'CC' stand for?",
+        options: ["Carbon Copy", "Central Copy", "Computer Code", "Client Contact"],
+        answer: 0
+      },
+      {
+        id: 87,
+        category: "Email",
+        q: "In email, what does 'BCC' stand for?",
+        options: ["Blind Carbon Copy", "Backup Carbon Copy", "Base Client Copy", "Brief Contact Code"],
+        answer: 0
+      },
+      {
+        id: 88,
+        category: "Email",
+        q: "Sending unwanted, bulk marketing messages over email is commonly referred to as:",
+        options: ["Spam", "Phishing", "Blogging", "Firewalling"],
+        answer: 0
+      },
+      {
+        id: 89,
+        category: "Cyber Safety",
+        q: "An attempt to trick users into revealing sensitive data like passwords or OTPs by masquerading as a trustworthy entity is called:",
+        options: ["Phishing", "Surfing", "Debugging", "Defragmenting"],
+        answer: 0
+      },
+      {
+        id: 90,
+        category: "Cyber Safety",
+        q: "A program designed to detect, isolate, and remove computer viruses is called an:",
+        options: ["Antivirus program", "Operating System", "Compiler", "Assembler"],
+        answer: 0
+      },
+      {
+        id: 91,
+        category: "Cyber Safety",
+        q: "A security barrier designed to monitor and control incoming and outgoing network traffic is called a:",
+        options: ["Firewall", "Bridge", "Repeater", "Modem"],
+        answer: 0
+      },
+      {
+        id: 92,
+        category: "Hardware",
+        q: "What type of device is a flatbed image scanner?",
+        options: ["Input device", "Output device", "Storage device", "Processing device"],
+        answer: 0
+      },
+      {
+        id: 93,
+        category: "Hardware",
+        q: "Which key on keyboard removes characters to the LEFT of the cursor?",
+        options: ["Backspace", "Delete", "End", "Tab"],
+        answer: 0
+      },
+      {
+        id: 94,
+        category: "Hardware",
+        q: "Which key on keyboard deletes characters to the RIGHT of the cursor?",
+        options: ["Backspace", "Delete", "Insert", "Home"],
+        answer: 1
+      },
+      {
+        id: 95,
+        category: "Fundamentals",
+        q: "The physical, touchable electronic parts of a computer system are known collectively as:",
+        options: ["Software", "Hardware", "Firmware", "Shareware"],
+        answer: 1
+      },
+      {
+        id: 96,
+        category: "Fundamentals",
+        q: "A collection of computer programs and instructions that tell a computer what to do is called:",
+        options: ["Hardware", "Software", "Cables", "Peripherals"],
+        answer: 1
+      },
+      {
+        id: 97,
+        category: "Fundamentals",
+        q: "Which generation of computers introduced integrated circuits (Microchips / ICs)?",
+        options: ["First Generation", "Second Generation", "Third Generation", "Fifth Generation"],
+        answer: 2
+      },
+      {
+        id: 98,
+        category: "Shortcuts",
+        q: "Which shortcut opens the Find and Replace dialog in MS Word?",
+        options: ["Ctrl + H", "Ctrl + F", "Ctrl + J", "Ctrl + K"],
+        answer: 0
+      },
+      {
+        id: 99,
+        category: "Windows OS",
+        q: "What is the small blinking vertical line or mark that indicates where next typed text will appear?",
+        options: ["Pointer", "Cursor", "Anchor", "Pixel"],
+        answer: 1
+      },
+      {
+        id: 100,
+        category: "Internet",
+        q: "What does 'IP' stand for in an IP Address?",
+        options: ["Internet Protocol", "Internal Program", "Interconnect Path", "Interface Port"],
+        answer: 0
+      }
+    ];
+
+    /* =====================================================================
+       2. AUTHORIZED USERS & CREDENTIALS (INCLUDING demo_tester)
+       ===================================================================== */
+    const AUTH_USERS = {
+      // Students & Demo Tester
+      "rajveer_singh": { role: "student", pass: "dcatest2026",     displayName: "Rajveer Singh" },
+      "udvita_singh":  { role: "student", pass: "dcatest2026",     displayName: "Udvita Singh" },
+      "unnati_singh":  { role: "student", pass: "dcatest2026",     displayName: "Unnati Singh" },
+      "demo_tester":   { role: "student", pass: "dcademotest2026", displayName: "Demo Tester" },
+      // Admin / Instructor (Sole access to results & certificates)
+      "abhinav2307":   { role: "admin",   pass: "adminadmin",      displayName: "Abhinav Singh (Director)" }
+    };
+
+    const STORAGE_KEY = "nuetech_dca_results";
+
+    /* =====================================================================
+       3. APPLICATION STATE
+       ===================================================================== */
+    let currentUser = null;
+    let examQuestions = []; // Selected 50 random questions
+    let studentAnswers = {}; // map: questionIndex -> selectedOptionIndex (0-3)
+    let currentQuestionIndex = 0;
+    let timerSeconds = 60 * 60; // 60 minutes = 3600s
+    let timerInterval = null;
+    let webcamStream = null;
+
+    /* =====================================================================
+       4. AUTHENTICATION & ROUTING
+       ===================================================================== */
+    function handleLogin(e) {
+      e.preventDefault();
+      const userField = document.getElementById("username-input");
+      const passField = document.getElementById("password-input");
+      const errorDiv  = document.getElementById("login-error");
+      const errorText = document.getElementById("login-error-text");
+
+      const u = userField.value.trim().toLowerCase();
+      const p = passField.value.trim();
+
+      if (!AUTH_USERS[u] || AUTH_USERS[u].pass !== p) {
+        errorDiv.classList.remove("hidden");
+        errorText.innerText = "Authentication rejected: Invalid Candidate ID or Passkey.";
+        return;
+      }
+
+      errorDiv.classList.add("hidden");
+      currentUser = { username: u, ...AUTH_USERS[u] };
+
+      // Update Navigation Bar
+      document.getElementById("header-user-panel").classList.remove("hidden");
+      document.getElementById("header-user-name").innerText = currentUser.displayName;
+      
+      const roleBadge = document.getElementById("header-role-badge");
+      if (currentUser.role === 'admin') {
+        roleBadge.innerText = "DIRECTOR ADMIN";
+        roleBadge.className = "text-[10px] font-bold px-1.5 py-0.5 bg-signal text-white uppercase";
+        showView("admin");
+        renderAdminDashboard();
+        showToast("Authenticated as Director Abhinav Singh. Grade Book unlocked.", "success");
+      } else {
+        roleBadge.innerText = "DCA CANDIDATE";
+        roleBadge.className = "text-[10px] font-bold px-1.5 py-0.5 bg-ink text-amber-300 uppercase";
+        initiateStudentExam();
+      }
+    }
+
+    function handleLogout() {
+      if (timerInterval) clearInterval(timerInterval);
+      stopCamera();
+
+      currentUser = null;
+      examQuestions = [];
+      studentAnswers = {};
+      currentQuestionIndex = 0;
+
+      // Reset login inputs
+      document.getElementById("username-input").value = "";
+      document.getElementById("password-input").value = "";
+      document.getElementById("login-error").classList.add("hidden");
+      document.getElementById("header-user-panel").classList.add("hidden");
+
+      showView("login");
+      showToast("Session terminated.", "info");
+    }
+
+    function showView(viewName) {
+      const views = ["login-view", "exam-view", "submitted-view", "admin-view"];
+      views.forEach(id => {
+        const el = document.getElementById(id);
+        if (id === `${viewName}-view`) {
+          el.classList.remove("hidden");
+        } else {
+          el.classList.add("hidden");
+        }
+      });
+    }
+
+    function togglePasswordVisibility() {
+      const pwdInput = document.getElementById("password-input");
+      const icon = document.getElementById("pwd-toggle-icon");
+      if (pwdInput.type === "password") {
+        pwdInput.type = "text";
+        icon.className = "fa-solid fa-eye-slash text-sm";
+      } else {
+        pwdInput.type = "password";
+        icon.className = "fa-solid fa-eye text-sm";
+      }
+    }
+
+    /* =====================================================================
+       5. STUDENT EXAM ENGINE
+       ===================================================================== */
+    function initiateStudentExam() {
+      document.getElementById("exam-student-name").innerText = currentUser.displayName;
+
+      // 1. Randomly pick 50 distinct questions from the 100 DCA bank
+      examQuestions = getRandomSample(DCA_QUESTION_BANK, 50);
+      studentAnswers = {};
+      currentQuestionIndex = 0;
+      timerSeconds = 60 * 60; // 60 mins
+
+      // 2. Start Live Dummy Camera
+      startCamera();
+
+      // 3. Render Question UI and Matrix Palette
+      renderPalette();
+      displayQuestion(0);
+      updateAnsweredCount();
+
+      // 4. Start 60-Minute Countdown
+      startTimer();
+
+      // 5. Switch to exam screen
+      showView("exam");
+      showToast(`Examination initialized for ${currentUser.displayName}. 60:00 timer started.`, "success");
+    }
+
+    function getRandomSample(arr, sampleSize) {
+      const shuffled = [...arr].sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, sampleSize);
+    }
+
+    function startTimer() {
+      if (timerInterval) clearInterval(timerInterval);
+      updateTimerDisplay();
+
+      timerInterval = setInterval(() => {
+        timerSeconds--;
+        updateTimerDisplay();
+
+        if (timerSeconds <= 0) {
+          clearInterval(timerInterval);
+          showToast("60:00 Time limit reached! Sealing and transmitting paper...", "warning");
+          finalizeAndSubmitExam(true);
+        }
+      }, 1000);
+    }
+
+    function updateTimerDisplay() {
+      const minutes = Math.floor(timerSeconds / 60);
+      const seconds = timerSeconds % 60;
+      const formatted = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      
+      const timerEl = document.getElementById("timer-display");
+      timerEl.innerText = formatted;
+
+      if (timerSeconds <= 300) {
+        timerEl.classList.remove("text-amber-300");
+        timerEl.classList.add("text-signal", "animate-pulse");
+      } else {
+        timerEl.classList.remove("text-signal", "animate-pulse");
+        timerEl.classList.add("text-amber-300");
+      }
+    }
+
+    function displayQuestion(idx) {
+      if (idx < 0 || idx >= examQuestions.length) return;
+      currentQuestionIndex = idx;
+      const qData = examQuestions[idx];
+
+      // Update Top Question Meta
+      const qNumStr = String(idx + 1).padStart(2, '0');
+      document.getElementById("question-number-pill").innerText = `QUESTION ${qNumStr} / 50`;
+      document.getElementById("question-category-pill").innerText = qData.category || "DCA Module";
+      document.getElementById("question-text").innerText = `${idx + 1}. ${qData.q}`;
+
+      // Populate Options (Strict test: NEVER show if choice is correct)
+      const optionsContainer = document.getElementById("options-container");
+      optionsContainer.innerHTML = "";
+
+      const optionLabels = ["A", "B", "C", "D"];
+
+      qData.options.forEach((optText, optIdx) => {
+        const isSelected = studentAnswers[idx] === optIdx;
+
+        const optButton = document.createElement("button");
+        optButton.type = "button";
+        optButton.onclick = () => selectOption(idx, optIdx);
+
+        optButton.className = `w-full text-left p-4 border-2 text-xs sm:text-sm transition flex items-center space-x-3.5 focus:outline-none ${
+          isSelected 
+            ? "bg-paper border-ink text-ink font-bold hard-shadow-sm" 
+            : "bg-alabaster border-hairline text-ink hover:bg-paper hover:border-ink font-medium"
+        }`;
+
+        optButton.innerHTML = `
+          <span class="flex-shrink-0 w-7 h-7 font-mono flex items-center justify-center font-bold text-xs border border-ink ${
+            isSelected 
+              ? "bg-signal text-white" 
+              : "bg-white text-ink"
+          }">
+            ${optionLabels[optIdx]}
+          </span>
+          <span class="flex-grow">${optText}</span>
+          ${isSelected ? '<span class="font-mono text-[10px] uppercase px-2 py-0.5 bg-ink text-amber-300 font-bold">SELECTED</span>' : ''}
+        `;
+
+        optionsContainer.appendChild(optButton);
+      });
+
+      // Update Nav buttons
+      document.getElementById("prev-btn").disabled = (idx === 0);
+      const nextBtn = document.getElementById("next-btn");
+      if (idx === examQuestions.length - 1) {
+        nextBtn.innerHTML = `<span>Review &amp; Seal</span> <i class="fa-solid fa-lock"></i>`;
+      } else {
+        nextBtn.innerHTML = `<span>Next Question</span> <i class="fa-solid fa-arrow-right"></i>`;
+      }
+
+      updatePaletteHighlights();
+    }
+
+    function selectOption(qIndex, optIndex) {
+      studentAnswers[qIndex] = optIndex;
+      displayQuestion(qIndex);
+      updateAnsweredCount();
+      updatePaletteHighlights();
+    }
+
+    function clearCurrentAnswer() {
+      if (studentAnswers.hasOwnProperty(currentQuestionIndex)) {
+        delete studentAnswers[currentQuestionIndex];
+        displayQuestion(currentQuestionIndex);
+        updateAnsweredCount();
+        updatePaletteHighlights();
+        showToast("Selection cleared.", "info");
+      }
+    }
+
+    function goToQuestion(idx) {
+      if (idx >= 0 && idx < examQuestions.length) {
+        displayQuestion(idx);
+      } else if (idx >= examQuestions.length) {
+        confirmSubmitModal();
+      }
+    }
+
+    function renderPalette() {
+      const paletteGrid = document.getElementById("palette-grid");
+      paletteGrid.innerHTML = "";
+
+      for (let i = 0; i < examQuestions.length; i++) {
+        const btn = document.createElement("button");
+        btn.id = `palette-btn-${i}`;
+        btn.innerText = String(i + 1).padStart(2, '0');
+        btn.onclick = () => goToQuestion(i);
+        btn.className = "w-full aspect-square font-bold text-xs flex items-center justify-center transition border border-ink bg-alabaster text-ink hover:bg-paper";
+        paletteGrid.appendChild(btn);
+      }
+    }
+
+    function updatePaletteHighlights() {
+      for (let i = 0; i < examQuestions.length; i++) {
+        const btn = document.getElementById(`palette-btn-${i}`);
+        if (!btn) continue;
+
+        const isAnswered = studentAnswers.hasOwnProperty(i);
+        const isCurrent = (i === currentQuestionIndex);
+
+        if (isCurrent) {
+          btn.className = "w-full aspect-square font-bold text-xs flex items-center justify-center transition border-2 border-ink bg-signal text-white";
+        } else if (isAnswered) {
+          btn.className = "w-full aspect-square font-bold text-xs flex items-center justify-center transition border border-ink bg-forest text-white";
+        } else {
+          btn.className = "w-full aspect-square font-bold text-xs flex items-center justify-center transition border border-ink bg-alabaster text-ink hover:bg-paper";
+        }
+      }
+    }
+
+    function updateAnsweredCount() {
+      const count = Object.keys(studentAnswers).length;
+      document.getElementById("answered-badge").innerText = `${count} / 50 ANSWERED`;
+      document.getElementById("modal-answered-count").innerText = count;
+    }
+
+    /* =====================================================================
+       6. WEBCAM FEED (Purely Local Proctoring Attention Mirror)
+       ===================================================================== */
+    async function startCamera() {
+      const videoEl = document.getElementById("proctor-video");
+      const fallbackEl = document.getElementById("camera-fallback");
+
+      try {
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+          webcamStream = await navigator.mediaDevices.getUserMedia({
+            video: { width: { ideal: 480 }, height: { ideal: 360 } },
+            audio: false
+          });
+          videoEl.srcObject = webcamStream;
+          fallbackEl.classList.add("hidden");
+        } else {
+          fallbackEl.classList.remove("hidden");
+        }
+      } catch (err) {
+        fallbackEl.classList.remove("hidden");
+      }
+    }
+
+    function stopCamera() {
+      if (webcamStream) {
+        webcamStream.getTracks().forEach(track => track.stop());
+        webcamStream = null;
+      }
+    }
+
+    /* =====================================================================
+       7. FINAL TEST SUBMISSION & STRICT CONFIDENTIALITY
+       ===================================================================== */
+    function confirmSubmitModal() {
+      document.getElementById("confirm-modal").classList.remove("hidden");
+    }
+
+    function closeConfirmModal() {
+      document.getElementById("confirm-modal").classList.add("hidden");
+    }
+
+    function finalizeAndSubmitExam(autoSubmit = false) {
+      closeConfirmModal();
+      if (timerInterval) clearInterval(timerInterval);
+      stopCamera();
+
+      const timeTakenSec = (60 * 60) - timerSeconds;
+      const minutesTaken = Math.floor(timeTakenSec / 60);
+      const secondsTaken = timeTakenSec % 60;
+      const formattedDuration = `${minutesTaken}m ${secondsTaken}s`;
+
+      // Calculate score silently in background for Instructor Grade Book ONLY
+      let correctScore = 0;
+      const breakdown = examQuestions.map((q, idx) => {
+        const given = studentAnswers.hasOwnProperty(idx) ? studentAnswers[idx] : null;
+        const isRight = (given !== null && given === q.answer);
+        if (isRight) correctScore++;
+        return {
+          questionText: q.q,
+          options: q.options,
+          correctAnswerIndex: q.answer,
+          selectedAnswerIndex: given,
+          isCorrect: isRight
+        };
+      });
+
+      const percentage = Math.round((correctScore / 50) * 100);
+      const passStatus = percentage >= 50 ? "Passed" : "Failed";
+      const packetId = "NTI-DCA-2026-" + Math.floor(1000 + Math.random() * 9000);
+
+      // Result Object stored strictly for abhinav2307
+      const resultPayload = {
+        id: packetId,
+        username: currentUser.username,
+        studentName: currentUser.displayName,
+        timestamp: new Date().toLocaleString(),
+        score: correctScore,
+        totalQuestions: 50,
+        percentage: percentage,
+        status: passStatus,
+        timeTaken: formattedDuration,
+        breakdown: breakdown
+      };
+
+      // Save to localStorage for Admin review
+      saveExamResult(resultPayload);
+
+      // Populate Candidate Sealed "Thank You" Screen (NO SCORE OR CERTIFICATE SHOWN)
+      document.getElementById("submitted-packet-id").innerText = packetId;
+      document.getElementById("submitted-candidate-name").innerText = currentUser.displayName;
+      document.getElementById("submitted-attempted-count").innerText = `${Object.keys(studentAnswers).length} / 50`;
+      document.getElementById("submitted-timestamp").innerText = resultPayload.timestamp;
+
+      showView("submitted");
+      showToast(autoSubmit ? "Time expired! Paper sealed and transmitted." : "Examination paper sealed and transmitted.", "success");
+    }
+
+    function saveExamResult(result) {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        const records = raw ? JSON.parse(raw) : [];
+        records.unshift(result);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(records));
+      } catch (err) {
+        console.error("Storage error:", err);
+      }
+    }
+
+    function getExamResults() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        return raw ? JSON.parse(raw) : [];
+      } catch (err) {
+        return [];
+      }
+    }
+
+    /* =====================================================================
+       8. ADMIN DASHBOARD (Strictly Accessible by abhinav2307 / adminadmin)
+       ===================================================================== */
+    function renderAdminDashboard() {
+      if (!currentUser || currentUser.role !== 'admin') return;
+
+      const records = getExamResults();
+      const tbody = document.getElementById("admin-table-body");
+      const emptyState = document.getElementById("admin-empty-state");
+
+      tbody.innerHTML = "";
+
+      const totalTests = records.length;
+      document.getElementById("stat-total-submissions").innerText = totalTests;
+
+      if (totalTests === 0) {
+        emptyState.classList.remove("hidden");
+        document.getElementById("stat-pass-rate").innerText = "0%";
+        document.getElementById("stat-avg-score").innerText = "0 / 50";
+        return;
+      }
+
+      emptyState.classList.add("hidden");
+
+      let totalScoreSum = 0;
+      let totalPassed = 0;
+
+      records.forEach((rec, index) => {
+        totalScoreSum += rec.score;
+        if (rec.status === "Passed") totalPassed++;
+
+        const tr = document.createElement("tr");
+        tr.className = "hover:bg-alabaster transition border-b border-hairline font-mono text-xs";
+
+        const passBadge = rec.status === "Passed"
+          ? `<span class="px-2 py-0.5 bg-emerald-100 text-emerald-900 border border-emerald-700 text-[10px] font-bold uppercase">PASSED</span>`
+          : `<span class="px-2 py-0.5 bg-red-100 text-red-900 border border-red-700 text-[10px] font-bold uppercase">FAILED</span>`;
+
+        tr.innerHTML = `
+          <td class="py-3.5 px-4 font-sans font-bold text-ink">${rec.studentName}</td>
+          <td class="py-3.5 px-4 text-signal font-bold">${rec.username}</td>
+          <td class="py-3.5 px-4 text-muted">${rec.timestamp}</td>
+          <td class="py-3.5 px-4 text-center font-bold text-ink">${rec.score} / 50</td>
+          <td class="py-3.5 px-4 text-center font-extrabold ${rec.percentage >= 50 ? 'text-forest' : 'text-red-700'}">${rec.percentage}%</td>
+          <td class="py-3.5 px-4 text-center">${passBadge}</td>
+          <td class="py-3.5 px-4 text-center text-muted">${rec.timeTaken || 'N/A'}</td>
+          <td class="py-3.5 px-4 text-right">
+            <div class="flex items-center justify-end space-x-2">
+              <button onclick="generateCertificateFromRecord(${index})" title="Generate Official Diploma" class="px-2.5 py-1.5 bg-amber-300 hover:bg-amber-400 text-ink border border-ink text-[11px] font-bold uppercase transition flex items-center gap-1">
+                <i class="fa-solid fa-award"></i>
+                <span>Diploma</span>
+              </button>
+              <button onclick="viewPaperDetails(${index})" title="Inspect Answer Audit" class="px-2.5 py-1.5 bg-white hover:bg-ink hover:text-white text-ink border border-ink text-[11px] font-bold uppercase transition flex items-center gap-1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Audit</span>
+              </button>
+            </div>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      const avgScore = (totalScoreSum / totalTests).toFixed(1);
+      const passRate = Math.round((totalPassed / totalTests) * 100);
+
+      document.getElementById("stat-avg-score").innerText = `${avgScore} / 50`;
+      document.getElementById("stat-pass-rate").innerText = `${passRate}%`;
+    }
+
+    function viewPaperDetails(recordIndex) {
+      if (!currentUser || currentUser.role !== 'admin') return;
+      const records = getExamResults();
+      const rec = records[recordIndex];
+      if (!rec) return;
+
+      document.getElementById("modal-student-title").innerText = `${rec.studentName} (${rec.username}) — Examination Audit`;
+      document.getElementById("modal-student-meta").innerText = `Packet: ${rec.id} • Score: ${rec.score}/50 (${rec.percentage}%) • Verdict: ${rec.status} • Logged: ${rec.timestamp}`;
+
+      const listContainer = document.getElementById("admin-detail-list");
+      listContainer.innerHTML = "";
+
+      const optionKeys = ["A", "B", "C", "D"];
+
+      rec.breakdown.forEach((item, qIdx) => {
+        const itemBox = document.createElement("div");
+        itemBox.className = `p-3.5 border-2 border-ink ${
+          item.isCorrect 
+            ? "bg-emerald-50/70" 
+            : item.selectedAnswerIndex === null 
+              ? "bg-paper" 
+              : "bg-red-50/70"
+        }`;
+
+        let statusBadge = "";
+        if (item.isCorrect) {
+          statusBadge = `<span class="font-mono text-[10px] font-bold text-emerald-900 bg-emerald-200 border border-emerald-800 px-2 py-0.5 uppercase">CORRECT (+1)</span>`;
+        } else if (item.selectedAnswerIndex === null) {
+          statusBadge = `<span class="font-mono text-[10px] font-bold text-muted bg-white border border-ink px-2 py-0.5 uppercase">OMITTED (0)</span>`;
+        } else {
+          statusBadge = `<span class="font-mono text-[10px] font-bold text-red-900 bg-red-200 border border-red-800 px-2 py-0.5 uppercase">INCORRECT (0)</span>`;
+        }
+
+        const candidateAnswerText = item.selectedAnswerIndex !== null 
+          ? `<strong>[${optionKeys[item.selectedAnswerIndex]}]</strong> ${item.options[item.selectedAnswerIndex]}` 
+          : `<span class="italic text-muted">No response selected</span>`;
+
+        const correctAnswerText = `<strong>[${optionKeys[item.correctAnswerIndex]}]</strong> ${item.options[item.correctAnswerIndex]}`;
+
+        itemBox.innerHTML = `
+          <div class="flex items-start justify-between gap-2 mb-2">
+            <h5 class="font-display font-bold text-ink text-xs sm:text-sm">Q${String(qIdx + 1).padStart(2, '0')}. ${item.questionText}</h5>
+            ${statusBadge}
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-mono mt-2 pt-2 border-t border-hairline">
+            <div>
+              <span class="text-muted block text-[10px] uppercase font-bold">Candidate Selection:</span>
+              <p class="${item.isCorrect ? 'text-forest font-bold' : 'text-red-700 font-bold'}">${candidateAnswerText}</p>
+            </div>
+            <div>
+              <span class="text-muted block text-[10px] uppercase font-bold">Official Answer Key:</span>
+              <p class="text-ink font-bold">${correctAnswerText}</p>
+            </div>
+          </div>
+        `;
+
+        listContainer.appendChild(itemBox);
+      });
+
+      document.getElementById("admin-detail-modal").classList.remove("hidden");
+    }
+
+    function closeAdminDetailModal() {
+      document.getElementById("admin-detail-modal").classList.add("hidden");
+    }
+
+    /* =====================================================================
+       8B. CERTIFICATE GENERATION & EXPORT SYSTEM (ADMIN ONLY)
+       ===================================================================== */
+    function computeGrade(percentage) {
+      if (percentage >= 85) return "Distinction (A+)";
+      if (percentage >= 75) return "First Division (A)";
+      if (percentage >= 60) return "Second Division (B)";
+      if (percentage >= 50) return "Pass Standard (C)";
+      return "Evaluated";
+    }
+
+    function populateCertificateUI(studentName, score, percentage, timestamp, id) {
+      document.getElementById("cert-student-name").innerText = studentName;
+      document.getElementById("cert-score").innerText = `${score} / 50`;
+      document.getElementById("cert-percent").innerText = `${percentage}%`;
+      
+      const grade = computeGrade(percentage);
+      document.getElementById("cert-grade").innerText = grade;
+      document.getElementById("cert-status").innerText = percentage >= 50 ? "Certified 2026" : "Completed";
+
+      let displayDate = timestamp;
+      try {
+        const d = new Date(timestamp);
+        if (!isNaN(d.getTime())) {
+          displayDate = d.toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' });
+        }
+      } catch (e) {
+        displayDate = timestamp;
+      }
+      document.getElementById("cert-date").innerText = displayDate;
+      document.getElementById("cert-verification-id").innerText = id || `NTI-DCA-2026-${Math.floor(1000 + Math.random() * 9000)}`;
+    }
+
+    function generateCertificateFromRecord(recordIndex) {
+      if (!currentUser || currentUser.role !== 'admin') return;
+      const records = getExamResults();
+      const rec = records[recordIndex];
+      if (!rec) return;
+
+      populateCertificateUI(
+        rec.studentName,
+        rec.score,
+        rec.percentage,
+        rec.timestamp,
+        rec.id
+      );
+
+      document.getElementById("certificate-modal").classList.remove("hidden");
+    }
+
+    function closeCertificateModal() {
+      document.getElementById("certificate-modal").classList.add("hidden");
+    }
+
+    function printCertificateWindow() {
+      window.print();
+    }
+
+    async function downloadCertificateImage() {
+      const certElement = document.getElementById("certificate-render-element");
+      const studentName = document.getElementById("cert-student-name").innerText.replace(/\s+/g, '_');
+      
+      showToast("Rendering high-resolution diploma PNG...", "info");
+
+      try {
+        const canvas = await html2canvas(certElement, {
+          scale: 2.5,
+          useCORS: true,
+          logging: false,
+          backgroundColor: '#fffdf7'
+        });
+
+        const imageUri = canvas.toDataURL("image/png");
+        const downloadLink = document.createElement("a");
+        downloadLink.download = `NueTech_Industries_DCA_Diploma_${studentName}_2026.png`;
+        downloadLink.href = imageUri;
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+
+        showToast("Official Diploma PNG downloaded!", "success");
+      } catch (err) {
+        console.error("Certificate download error:", err);
+        showToast("Direct PNG export unavailable. Launching Print/PDF dialog...", "warning");
+        window.print();
+      }
+    }
+
+    function openClearLogsModal() {
+      document.getElementById("clear-logs-modal").classList.remove("hidden");
+    }
+
+    function closeClearLogsModal() {
+      document.getElementById("clear-logs-modal").classList.add("hidden");
+    }
+
+    function executeClearRecords() {
+      localStorage.removeItem(STORAGE_KEY);
+      closeClearLogsModal();
+      renderAdminDashboard();
+      showToast("All examination records purged from storage.", "info");
+    }
+
+    function exportResultsCSV() {
+      const records = getExamResults();
+      if (!records || records.length === 0) {
+        showToast("No examination records available to export.", "warning");
+        return;
+      }
+
+      let csv = "Packet ID,Student Name,Username,Timestamp,Score,Total,Percentage,Status,Time Taken\n";
+      records.forEach(r => {
+        csv += `"${r.id}","${r.studentName}","${r.username}","${r.timestamp}",${r.score},${r.totalQuestions},"${r.percentage}%","${r.status}","${r.timeTaken}"\n`;
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.setAttribute("href", url);
+      link.setAttribute("download", `NueTech_Industries_DCA_Ledger_${new Date().toISOString().slice(0,10)}.csv`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      showToast("CSV Grade Book exported.", "success");
+    }
+
+    /* =====================================================================
+       9. TOAST NOTIFICATION UTILITY
+       ===================================================================== */
+    function showToast(message, type = "info") {
+      const container = document.getElementById("toast-container");
+      const toast = document.createElement("div");
+
+      let bgClass = "bg-ink text-alabaster border-2 border-ink";
+      let icon = "fa-terminal text-amber-300";
+
+      if (type === "success") {
+        bgClass = "bg-forest text-white border-2 border-ink";
+        icon = "fa-circle-check text-white";
+      } else if (type === "warning") {
+        bgClass = "bg-signal text-white border-2 border-ink";
+        icon = "fa-triangle-exclamation text-white";
+      }
+
+      toast.className = `pointer-events-auto flex items-center space-x-2.5 px-4 py-3 hard-shadow-sm ${bgClass} font-mono text-xs font-bold transform transition-all duration-300 translate-y-2 opacity-0`;
+      toast.innerHTML = `<i class="fa-solid ${icon}"></i> <span>${message}</span>`;
+
+      container.appendChild(toast);
+
+      requestAnimationFrame(() => {
+        toast.classList.remove("translate-y-2", "opacity-0");
+      });
+
+      setTimeout(() => {
+        toast.classList.add("translate-y-2", "opacity-0");
+        setTimeout(() => toast.remove(), 300);
+      }, 3500);
+    }
+  </script>
+</body>
+</html>
